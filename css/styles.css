@@ -295,17 +295,21 @@ display: block;
 
 .adress:hover, .adress:focus{color: var(--accent-color);}
 .hero__button{
-
+  border: none;
+  min-height: 50px;
+  min-width: 200px;
+  border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875em;
   display: block;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   margin-right: auto;
   margin-left: auto;
-  color: #FFFFFF;
+  color: var(--background-body-color);
+  background-color: var(--accent-color);\
 
 } 
 .button-portfolio{background-color: #F5F4FA; color: var(--titlo-text-color);}
