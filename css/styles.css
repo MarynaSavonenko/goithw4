@@ -604,3 +604,83 @@ margin-bottom: 30px;}
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.clients{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients__container{
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.clients__title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16em;
+  text-align: center;
+  color: var(--title-color);
+  margin-top: 0%;
+  margin-bottom: 50px;
+}
+.clients__list{
+  padding: 0%;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  list-style: none;
+  margin-top: 0%;
+  margin-bottom: 0%;
+
+}
+.clients__list>li:not(:last-child){
+  margin-right: 30px;
+}
+.clients__element{
+  border: var(--bgc-icon-color) 1px solid;
+  border-radius: 4px;
+  color: var(--bgc-icon-color);
+  min-width: 170px;
+  min-height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clients__icon1{
+ width: 44px;
+ height: 49px;
+ fill: currentColor;
+}
+.clients__icon2{
+  width: 40px;
+  height: 52px;
+  fill: currentColor;
+}
+.clients__icon3{
+  width: 41px;
+  height: 43px;
+  fill: currentColor;
+}
+.clients__icon4{
+  width: 80px;
+  height: 42px;
+  fill: currentColor;
+}
+.clients__icon5{
+  width: 59px;
+  height: 47px;
+  fill: currentColor;
+}
+.clients__icon6{
+  width: 88px;
+  height: 45px;
+  fill: currentColor;
+}
+.clients__element:hover,
+.clients__element:focus{
+  color: var(--accent-color);
+  border: var(--accent-color) 1px solid;
+}
